@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?snowy-mountain') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    text-align: center;
+  
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+  
+      li {
+        display: inline;
+  
+        a {
+          color: #ffffff;
+          text-decoration: none;
+          font-weight: bold;
+          padding: 0.5rem 1rem;
+          border-radius: 5px;
+          transition: background 0.3s;
+  
+          &:hover {
+            background: rgba(255, 255, 255, 0.2);
+          }
+        }
+      }
+    }
+  }
+  
+  .container {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 2rem auto;
+    border-radius: 10px;
+    max-width: 800px;
+  }
+  
