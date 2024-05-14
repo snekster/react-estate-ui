@@ -3,7 +3,7 @@ const { Pool } = pkg;
 
 const pool = new Pool({
   user: 'myuser',
-  host: 'localhost',
+  host: '45.95.202.35',
   database: 'myappdb',
   password: 'T2#||s!@<dAl',
   port: 5432,
