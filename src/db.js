@@ -2,7 +2,7 @@ import pkg from 'pg';
 const { Pool } = pkg;
 
 const pool = new Pool({
-  user: 'postgres',
+  user: 'myuser',
   host: 'localhost',
   database: 'myappdb',
   password: 'T2#||s!@<dAl',
